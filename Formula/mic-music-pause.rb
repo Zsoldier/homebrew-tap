@@ -1,7 +1,7 @@
 class MicMusicPause < Formula
   desc "Pause Apple Music while your microphone is in use, then resume"
   homepage "https://github.com/Zsoldier/mic-music-pause"
-  # Stable release — fill in the sha256 after tagging (see scripts/release.sh).
+  # Stable release (auto-updated by the release workflow on new tags).
   url "https://github.com/Zsoldier/mic-music-pause/archive/refs/tags/v0.3.0.tar.gz"
   sha256 "27f400effed95bb6d5f4b01d7f0f214a5d1d32e81ef6d0851dae5aab9cfc71f4"
   license "MIT"
