@@ -4,17 +4,17 @@
 class MicMusicPause < Formula
   desc "Pause Apple Music while your microphone is in use, then resume"
   homepage "https://github.com/Zsoldier/mic-music-pause"
-  version "0.8.0"
-  url "https://github.com/Zsoldier/mic-music-pause/archive/refs/tags/v0.8.0.tar.gz"
-  sha256 "d0ecc265bf0e7509f5265db151813472347874d569718f7e5df64f60fae2d93e"
+  version "0.8.1"
+  url "https://github.com/Zsoldier/mic-music-pause/archive/refs/tags/v0.8.1.tar.gz"
+  sha256 "2f3fa3982f3e6582948ebabdb6cdf1825f39c25ef613bfc54fa3f0e976535af8"
   license "MIT"
   head "https://github.com/Zsoldier/mic-music-pause.git", branch: "main"
 
   depends_on :macos
 
   resource "app" do
-    url "https://github.com/Zsoldier/mic-music-pause/releases/download/v0.8.0/mic-music-pause-0.8.0-macos.tar.gz"
-    sha256 "e1fbe7e4c1c87352b3eddacd73c76a60628cb6ee934c7e19a19ddf6624e4c679"
+    url "https://github.com/Zsoldier/mic-music-pause/releases/download/v0.8.1/mic-music-pause-0.8.1-macos.tar.gz"
+    sha256 "721629357a11128860af0115c3b256fe94408750fa85d5ef52b113d25e614a10"
   end
 
   def install
